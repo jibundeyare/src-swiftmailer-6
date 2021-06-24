@@ -2,7 +2,7 @@
 
 require_once __DIR__.'/vendor/autoload.php';
 
-// Choix du serveur SMTP
+// Choix d'un transport de type SMTP
 // Pour utiliser le protocole :
 // - SMTPS, c-à-d SMTP sur du TLS, mettez 'ssl' (recommandé)
 // - SMTP avec STARTTLS, mettez 'tls'
