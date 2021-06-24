@@ -23,7 +23,7 @@ $message = (new Swift_Message('Hello Swiftmailer SMTP!'))
     ->setFrom(['foo.bar@example.com' => 'Foo Bar'])
     // Choix du destinataire
     ->setTo(['bar.baz@example.com'])
-    // Choix du message
+    // Choix du message au format texte
     ->setBody('Hello Swiftmailer SMTP!')
 ;
 
