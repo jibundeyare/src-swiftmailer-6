@@ -6,7 +6,7 @@ require_once __DIR__.'/vendor/autoload.php';
 // Pour utiliser le protocole :
 // - SMTPS, c-à-d SMTP sur du TLS, mettez 'ssl' (recommandé)
 // - SMTP avec STARTTLS, mettez 'tls'
-$transport = (new Swift_SmtpTransport('smtp.example.org', 587, 'tls'))
+$transport = (new Swift_SmtpTransport('smtp.example.org', 587, 'ssl'))
     // Choix du compte mail
     ->setUsername('foo.bar@example.com')
     ->setPassword('123')
