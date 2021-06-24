@@ -21,7 +21,7 @@ $message = (new Swift_Message('Hello Swiftmailer SMTP!'))
     // Même si mettez une adresse "from" différent du compte SMTP,
     // l'adresse du compte SMTP sera visible dans l'entête du mail
     ->setFrom(['foo.bar@example.com' => 'Foo Bar'])
-    // Choix du destinataire
+    // Choix de l'adresse du destinataire
     ->setTo(['bar.baz@example.com'])
     // Choix du message au format texte
     ->setBody('Hello Swiftmailer SMTP!')
