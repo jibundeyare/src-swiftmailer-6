@@ -1,5 +1,6 @@
 # Swiftmailer 6
 
-Ce projet illustre comment utiliser le package Swiftmailer directement
-avec un serveur SMTP ou avec un service de transfert de mail.
+Cette projet montre comment utiliser Swiftmailer pour envoyer des mails
+en utilisant directement un serveur SMTP ou un service de
+transfert de mail.
 
