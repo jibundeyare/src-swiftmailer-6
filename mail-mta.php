@@ -3,7 +3,7 @@
 require_once __DIR__.'/vendor/autoload.php';
 
 // Choix d'un transport de type sendmail adapté pour msmtp
-$transport = new Swift_SendmailTransport('/usr/sbin/sendmail');
+$transport = new Swift_SendmailTransport('/usr/sbin/sendmail -t');
 
 // Création du Mailer avec le Transport
 $mailer = new Swift_Mailer($transport);
